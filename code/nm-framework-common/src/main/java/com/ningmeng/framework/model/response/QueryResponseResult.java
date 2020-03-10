@@ -5,7 +5,7 @@ import lombok.ToString;
 
 @Data
 @ToString
-public class QueryResponseResult<C> extends ResponseResult {
+public class QueryResponseResult extends ResponseResult {
 
     QueryResult queryResult;
 

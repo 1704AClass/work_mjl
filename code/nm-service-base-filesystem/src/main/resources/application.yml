@@ -6,7 +6,8 @@ spring:
 #mongo配置
   data:
     mongodb:
-      uri: mongodb://127.0.0.1:27017/nm_fs
+      database: nm_fs
+      uri: mongodb://localhost:27017
 #SpringMVC上传文件配置
   servlet:
     multipart:
@@ -25,4 +26,4 @@ ningmeng:
     connect_timeout_in_seconds: 5
     network_timeout_in_seconds: 30
     charset: UTF-8
-    tracker_servers: 47.94.218.136:22122 #多个 trackerServer中间以逗号分隔
+    tracker_servers: 192.168.101.129:22122 #多个 trackerServer中间以逗号分隔
