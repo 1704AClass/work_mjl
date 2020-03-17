@@ -2,11 +2,9 @@ package com.ningmeng.manage_course.dao;
 
 import com.ningmeng.framework.domain.course.ext.CategoryNode;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 
 @Mapper
 public interface CategoryMapper {
-
-    //查询分类
-    public CategoryNode selectList();
-
+    public CategoryNode findCategoryList(@Param("parentId") String parentId);
 }

@@ -19,7 +19,7 @@ import java.util.stream.Collectors;
 
 @Configuration
 @EnableResourceServer
-@EnableGlobalMethodSecurity(prePostEnabled = true,securedEnabled = true)
+@EnableGlobalMethodSecurity(prePostEnabled = true, securedEnabled = true)//激活方法上的 PreAuthorize注解
 public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
 
     //公钥
@@ -27,21 +27,21 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
 
     //定义JwtTokenStore，使用jwt令牌
     @Bean
-    public TokenStore tokenStore(JwtAccessTokenConverter jwtAccessTokenConverter){
+    public TokenStore tokenStore(JwtAccessTokenConverter jwtAccessTokenConverter) {
         return new JwtTokenStore(jwtAccessTokenConverter);
     }
 
-    //定义JWTAccessTokenConverter，使用jwt令牌
+    //定义JJwtAccessTokenConverter，使用jwt令牌
     @Bean
-    public JwtAccessTokenConverter jwtAccessTokenConverter(){
+    public JwtAccessTokenConverter jwtAccessTokenConverter() {
         JwtAccessTokenConverter converter = new JwtAccessTokenConverter();
         converter.setVerifierKey(getPubKey());
         return converter;
     }
 
     /**
-     * 获取非对称的加密公钥key
-     * @return
+     * 获取非对称加密公钥 Key
+     * @return 公钥 Key
      */
     private String getPubKey() {
         Resource resource = new ClassPathResource(PUBLIC_KEY);
@@ -49,21 +49,23 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
             InputStreamReader inputStreamReader = new InputStreamReader(resource.getInputStream());
             BufferedReader br = new BufferedReader(inputStreamReader);
             return br.lines().collect(Collectors.joining("\n"));
-        }catch (IOException ioe){
+        } catch (IOException ioe) {
             return null;
         }
     }
 
-    //Http安全配置，对每个到达系统的http请求连接进行效验
+    //Http安全配置，对每个到达系统的http请求链接进行校验
     @Override
-    public void configure(HttpSecurity http) throws Exception{
+    public void configure(HttpSecurity http) throws Exception {
+        //所有请求必须认证通过
+        //http.authorizeRequests().anyRequest().authenticated();
+
         //所有请求必须认证通过
         http.authorizeRequests()
-                .antMatchers("/v2/api-docs","/swagger-resources/configuration/ui",
-                        "/swagger-resources","/swagger-resources/configuration/security",
-                        "/swagger-ui.html","/webjars/**").permitAll()
-                .anyRequest().authenticated();
+                //下边的路径放行
+        .antMatchers("/v2/api-docs", "/swagger-resources/configuration/ui",
+                "/swagger-resources","/swagger-resources/configuration/security",
+                "/swagger-ui.html","/webjars/**","/**").permitAll()
+        .anyRequest().authenticated();
     }
-
-
 }

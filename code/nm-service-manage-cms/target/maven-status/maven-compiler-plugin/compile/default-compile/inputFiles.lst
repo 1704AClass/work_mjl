@@ -1,6 +1,6 @@
-D:\idea\code\nm-service-manage-cms\src\main\java\com\ningmeng\manage_cms\config\RabbitmqConfig.java
-D:\idea\code\nm-service-manage-cms\src\main\java\com\ningmeng\manage_cms\ManageCmsApplication.java
-D:\idea\code\nm-service-manage-cms\src\main\java\com\ningmeng\manage_cms\controller\CmsPageController.java
-D:\idea\code\nm-service-manage-cms\src\main\java\com\ningmeng\manage_cms\dao\cmsPageRepository.java
-D:\idea\code\nm-service-manage-cms\src\main\java\com\ningmeng\manage_cms\service\CmsPageService.java
-D:\idea\code\nm-service-manage-cms\src\main\java\com\ningmeng\manage_cms\service\CmsPageClient.java
+E:\cms\idea\nm-CMS-1704A\nm-service-manage-cms\src\main\java\com\ningmeng\manage_cms\dao\CmsSiteRepository.java
+E:\cms\idea\nm-CMS-1704A\nm-service-manage-cms\src\main\java\com\ningmeng\manage_cms\config\RabbitmqConfig.java
+E:\cms\idea\nm-CMS-1704A\nm-service-manage-cms\src\main\java\com\ningmeng\manage_cms\service\CmsPageService.java
+E:\cms\idea\nm-CMS-1704A\nm-service-manage-cms\src\main\java\com\ningmeng\manage_cms\ManageCmsApplication.java
+E:\cms\idea\nm-CMS-1704A\nm-service-manage-cms\src\main\java\com\ningmeng\manage_cms\dao\CmsPageRepository.java
+E:\cms\idea\nm-CMS-1704A\nm-service-manage-cms\src\main\java\com\ningmeng\manage_cms\controller\CmsPageController.java

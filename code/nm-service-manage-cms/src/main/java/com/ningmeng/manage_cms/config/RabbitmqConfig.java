@@ -5,6 +5,9 @@ import org.springframework.amqp.core.ExchangeBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+/**
+ * Created by Lenovo on 2020/2/16.
+ */
 @Configuration
 public class RabbitmqConfig {
     //交换机的名称

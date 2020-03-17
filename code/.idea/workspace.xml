@@ -81,7 +81,7 @@
       <recent name="D:\idea\code\nm-framework-parent\test-rabbitmq-consumer\src\test\java\com\ningmeng\consumer" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ManageMediaProcessorApplication">
+  <component name="RunManager" selected="Spring Boot.ManageOrderApplication">
     <configuration name="FileSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="nm-service-base-filesystem" />
       <extension name="coverage">
@@ -91,19 +91,6 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ningmeng.filesystem.FileSystemApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ManageCmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="nm-service-manage-cms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ningmeng.manage_cms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ningmeng.manage_cms.ManageCmsApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,6 +134,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ManageOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="nm-service-manage-order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ningmeng.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ningmeng.order.ManageOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UcenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="nm-service-ucenter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ningmeng.ucenter.UcenterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UcenterAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="nm-service-ucenter-auth" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ningmeng.auth.UcenterAuthApplication" />
@@ -156,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ManageOrderApplication" />
         <item itemvalue="Spring Boot.ManageMediaProcessorApplication" />
         <item itemvalue="Spring Boot.ManageMediaApplication" />
         <item itemvalue="Spring Boot.FileSystemApplication" />
         <item itemvalue="Spring Boot.ManageCourseApplication" />
-        <item itemvalue="Spring Boot.ManageCmsApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +220,8 @@
       <workItem from="1583374974712" duration="4706000" />
       <workItem from="1583379800244" duration="1406000" />
       <workItem from="1583755585562" duration="632000" />
-      <workItem from="1583812228368" duration="403000" />
+      <workItem from="1583812228368" duration="1696000" />
+      <workItem from="1584415359900" duration="2764000" />
     </task>
     <servers />
   </component>
@@ -221,12 +229,12 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="883" y="215" key="#Project_Structure" timestamp="1582162042920">
+    <state x="883" y="215" key="#Project_Structure" timestamp="1584416601405">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="550" y="52" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1581431223339" />
     <state x="618" y="59" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1581597552165" />
-    <state x="883" y="215" key="#Project_Structure/0.0.1858.1080@0.0.1858.1080" timestamp="1582162042920" />
+    <state x="883" y="215" key="#Project_Structure/0.0.1858.1080@0.0.1858.1080" timestamp="1584416601405" />
     <state x="657" y="343" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583812526086">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
@@ -253,54 +261,54 @@
     </state>
     <state x="487" y="217" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581419677921" />
     <state x="662" y="405" key="FileChooserDialogImpl/0.0.1858.1080@0.0.1858.1080" timestamp="1583372852045" />
-    <state width="1815" height="30" key="GridCell.Tab.0.bottom" timestamp="1583381842139">
+    <state width="1815" height="381" key="GridCell.Tab.0.bottom" timestamp="1584417862860">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1323" height="207" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581507648904" />
     <state width="1493" height="231" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581599172539" />
-    <state width="1815" height="30" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1583381842139" />
-    <state width="1815" height="30" key="GridCell.Tab.0.center" timestamp="1583381842138">
+    <state width="1815" height="381" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1584417862860" />
+    <state width="1815" height="381" key="GridCell.Tab.0.center" timestamp="1584417862860">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1323" height="207" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581507648904" />
     <state width="1493" height="231" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581599172539" />
-    <state width="1815" height="30" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1583381842138" />
-    <state width="1815" height="30" key="GridCell.Tab.0.left" timestamp="1583381842138">
+    <state width="1815" height="381" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1584417862860" />
+    <state width="1815" height="381" key="GridCell.Tab.0.left" timestamp="1584417862860">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1323" height="207" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581507648904" />
     <state width="1493" height="231" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581599172539" />
-    <state width="1815" height="30" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1583381842138" />
-    <state width="1815" height="30" key="GridCell.Tab.0.right" timestamp="1583381842139">
+    <state width="1815" height="381" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1584417862860" />
+    <state width="1815" height="381" key="GridCell.Tab.0.right" timestamp="1584417862860">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1323" height="207" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581507648904" />
     <state width="1493" height="231" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581599172539" />
-    <state width="1815" height="30" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1583381842139" />
-    <state width="1815" height="30" key="GridCell.Tab.1.bottom" timestamp="1583381842140">
+    <state width="1815" height="381" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1584417862860" />
+    <state width="1815" height="381" key="GridCell.Tab.1.bottom" timestamp="1584417862861">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1323" height="207" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581507648905" />
     <state width="1493" height="231" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581599172539" />
-    <state width="1815" height="30" key="GridCell.Tab.1.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1583381842140" />
-    <state width="1815" height="30" key="GridCell.Tab.1.center" timestamp="1583381842140">
+    <state width="1815" height="381" key="GridCell.Tab.1.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1584417862861" />
+    <state width="1815" height="381" key="GridCell.Tab.1.center" timestamp="1584417862860">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1323" height="207" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1581507648905" />
     <state width="1493" height="231" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1581599172539" />
-    <state width="1815" height="30" key="GridCell.Tab.1.center/0.0.1858.1080@0.0.1858.1080" timestamp="1583381842140" />
-    <state width="1815" height="30" key="GridCell.Tab.1.left" timestamp="1583381842140">
+    <state width="1815" height="381" key="GridCell.Tab.1.center/0.0.1858.1080@0.0.1858.1080" timestamp="1584417862860" />
+    <state width="1815" height="381" key="GridCell.Tab.1.left" timestamp="1584417862860">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1323" height="207" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1581507648905" />
     <state width="1493" height="231" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1581599172539" />
-    <state width="1815" height="30" key="GridCell.Tab.1.left/0.0.1858.1080@0.0.1858.1080" timestamp="1583381842140" />
-    <state width="1815" height="30" key="GridCell.Tab.1.right" timestamp="1583381842140">
+    <state width="1815" height="381" key="GridCell.Tab.1.left/0.0.1858.1080@0.0.1858.1080" timestamp="1584417862860" />
+    <state width="1815" height="381" key="GridCell.Tab.1.right" timestamp="1584417862860">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1323" height="207" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1581507648905" />
     <state width="1493" height="231" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1581599172539" />
-    <state width="1815" height="30" key="GridCell.Tab.1.right/0.0.1858.1080@0.0.1858.1080" timestamp="1583381842140" />
+    <state width="1815" height="381" key="GridCell.Tab.1.right/0.0.1858.1080@0.0.1858.1080" timestamp="1584417862860" />
     <state width="1815" height="30" key="GridCell.Tab.2.bottom" timestamp="1583381842140">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
@@ -331,12 +339,12 @@
     <state x="326" y="1" width="994" height="708" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581435833386" />
     <state x="367" y="1" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581577747773" />
     <state x="531" y="142" key="SettingsEditor/0.0.1858.1080@0.0.1858.1080" timestamp="1583812462192" />
-    <state x="609" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1583812239721">
+    <state x="609" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1584415359797">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="448" y="245" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1581486061241" />
     <state x="504" y="277" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581597083523" />
-    <state x="609" y="364" key="com.intellij.ide.util.TipDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1583812239721" />
+    <state x="609" y="364" key="com.intellij.ide.util.TipDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1584415359797" />
     <state x="323" y="151" width="889" height="566" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1581580863530">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

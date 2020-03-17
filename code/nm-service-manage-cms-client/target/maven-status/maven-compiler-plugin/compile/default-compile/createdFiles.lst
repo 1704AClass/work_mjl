@@ -1,0 +1,5 @@
+com\ningmeng\manage_cms_client\dao\CmsPageRepository.class
+com\ningmeng\manage_cms_client\mq\ConsumerPostPage.class
+com\ningmeng\manage_cms_client\config\RabbitmqConfig.class
+com\ningmeng\manage_cms_client\service\PageService.class
+com\ningmeng\manage_cms_client\ManageCmsClientApplication.class

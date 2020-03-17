@@ -1,1 +1,3 @@
 com\ningmeng\manage_course\dao\TestDao.class
+com\ningmeng\manage_course\dao\TestFeign.class
+com\ningmeng\manage_course\dao\Tests.class

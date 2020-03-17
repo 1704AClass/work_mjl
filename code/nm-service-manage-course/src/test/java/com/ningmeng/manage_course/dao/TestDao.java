@@ -1,6 +1,7 @@
 package com.ningmeng.manage_course.dao;
 
 import com.ningmeng.framework.domain.course.CourseBase;
+import com.ningmeng.framework.domain.system.SysDictionary;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,6 +19,9 @@ import java.util.Optional;
 public class TestDao {
     @Autowired
     CourseBaseRepository courseBaseRepository;
+
+    @Autowired
+    SysDictionaryRepository sysDicthinaryRepository;
 
     @Autowired
     CourseMapper courseMapper;
@@ -39,5 +43,10 @@ public class TestDao {
 
     }
 
-
+    @Test
+    public void findByDType(){
+        SysDictionary sysDictionary = sysDicthinaryRepository.findById("5a7d50bdd019f150f4ab8ef7").get();
+        System.out.println("-------------------------");
+        System.out.println(sysDictionary);
+    }
 }

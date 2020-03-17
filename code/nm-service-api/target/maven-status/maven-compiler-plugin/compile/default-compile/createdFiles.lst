@@ -1,2 +1,6 @@
 com\ningmeng\api\config\Swagger2Configuration.class
-com\ningmeng\api\cmsApi\CmsPageControllerApi.class
+com\ningmeng\api\filesystemapi\FileSyetemControllerApi.class
+com\ningmeng\api\courseapi\SysDicthinaryControllerApi.class
+com\ningmeng\api\cmsapi\CmsPageControllerApi.class
+com\ningmeng\api\courseapi\CourseControllerApi.class
+com\ningmeng\api\courseapi\CategoryControllerApi.class

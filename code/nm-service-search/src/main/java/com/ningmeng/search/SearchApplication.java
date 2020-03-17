@@ -10,8 +10,8 @@ import org.springframework.context.annotation.ComponentScan;
  * @author Administrator
  * @version 1.0
  **/
+@EnableDiscoveryClient//从Eureka Server获取服务
 @SpringBootApplication
-@EnableDiscoveryClient
 @EntityScan("com.ningmeng.framework.domain.search")//扫描实体类
 @ComponentScan(basePackages={"com.ningmeng.api"})//扫描接口
 @ComponentScan(basePackages={"com.ningmeng.search"})//扫描本项目下的所有类

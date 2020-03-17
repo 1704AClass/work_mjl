@@ -1,7 +1,6 @@
 package com.ningmeng.api.courseApi;
 
 import com.ningmeng.framework.domain.course.Teachplan;
-import com.ningmeng.framework.domain.course.ext.CourseInfo;
 import com.ningmeng.framework.domain.course.ext.TeachplanNode;
 import com.ningmeng.framework.domain.course.request.CourseListRequest;
 import com.ningmeng.framework.model.response.QueryResponseResult;
@@ -19,5 +18,5 @@ public interface CourseApi {
     @ApiOperation("添加课程计划")
     public ResponseResult add(Teachplan teachplan);
     @ApiOperation("查询我的课程列表")
-    public QueryResponseResult<CourseInfo> findCourseList(int page, int size, CourseListRequest courseListRequest);
+    public QueryResponseResult findCourseList(int page, int size, CourseListRequest courseListRequest);
 }

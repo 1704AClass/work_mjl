@@ -5,11 +5,13 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
+/**
+ * Created by Lenovo on 2020/3/7.
+ */
 @FeignClient(value = "nm-service-search")
 public interface CourseSearchClient {
 
-    @GetMapping(value = "/search/course/getmedia/{teachplanId}")
+    @GetMapping(value="/search/getmedia/{teachplanId}")
     public TeachplanMediaPub getmedia(@PathVariable("teachplanId") String teachplanId);
-
 
 }

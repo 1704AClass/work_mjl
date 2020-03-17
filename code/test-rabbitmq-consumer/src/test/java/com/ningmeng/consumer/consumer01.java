@@ -8,7 +8,7 @@ import java.io.IOException;
  * Created by BJDGZJD on 13/2/2020.
  */
 public class consumer01 {
-    private static final String QUEUE="queue_inform_email";
+    private static final java.lang.String QUEUE="queue_inform_email";
     public static void main(String[] args) {
         try {
             //创建初始化连接工厂

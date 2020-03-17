@@ -1,6 +1,6 @@
-D:\idea\code\nm-service-api\src\main\java\com\ningmeng\api\course\SysDicthinaryControllerApi.java
-D:\idea\code\nm-service-api\src\main\java\com\ningmeng\api\filesystem\FileSystemControllerApi.java
-D:\idea\code\nm-service-api\src\main\java\com\ningmeng\api\config\Swagger2Configuration.java
-D:\idea\code\nm-service-api\src\main\java\com\ningmeng\api\course\CourseControllerApi.java
-D:\idea\code\nm-service-api\src\main\java\com\ningmeng\api\cmsApi\CmsPageControllerApi.java
-D:\idea\code\nm-service-api\src\main\java\com\ningmeng\api\course\CategoryControllerApi.java
+E:\cms\idea\nm-CMS-1704A\nm-service-api\src\main\java\com\ningmeng\api\filesystemapi\FileSyetemControllerApi.java
+E:\cms\idea\nm-CMS-1704A\nm-service-api\src\main\java\com\ningmeng\api\config\Swagger2Configuration.java
+E:\cms\idea\nm-CMS-1704A\nm-service-api\src\main\java\com\ningmeng\api\cmsapi\CmsPageControllerApi.java
+E:\cms\idea\nm-CMS-1704A\nm-service-api\src\main\java\com\ningmeng\api\courseapi\CategoryControllerApi.java
+E:\cms\idea\nm-CMS-1704A\nm-service-api\src\main\java\com\ningmeng\api\courseapi\SysDicthinaryControllerApi.java
+E:\cms\idea\nm-CMS-1704A\nm-service-api\src\main\java\com\ningmeng\api\courseapi\CourseControllerApi.java

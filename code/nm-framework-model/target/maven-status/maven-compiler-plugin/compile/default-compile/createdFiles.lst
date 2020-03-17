@@ -6,6 +6,7 @@ com\ningmeng\framework\domain\cms\CmsSiteServer.class
 com\ningmeng\framework\domain\course\response\DeleteCourseResult.class
 com\ningmeng\framework\domain\course\ext\TeachplanExt.class
 com\ningmeng\framework\domain\report\ReportCourse.class
+com\ningmeng\framework\domain\course\response\CoursePublishResult.class
 com\ningmeng\framework\domain\order\response\PayOrderResult.class
 com\ningmeng\framework\domain\media\MediaFileProcess.class
 com\ningmeng\framework\domain\ucenter\ext\XcMenuExt.class
@@ -23,7 +24,6 @@ com\ningmeng\framework\domain\search\CourseSearchParam.class
 com\ningmeng\framework\domain\media\MediaFileProcess_m3u8.class
 com\ningmeng\framework\domain\cms\CmsConfigModel.class
 com\ningmeng\framework\domain\course\ext\CategoryParameter.class
-com\ningmeng\framework\domain\course\CourseView.class
 com\ningmeng\framework\domain\media\response\CheckChunkResult.class
 com\ningmeng\framework\domain\course\ext\TeachplanParameter.class
 com\ningmeng\framework\domain\ucenter\response\LoginResult.class
@@ -88,5 +88,6 @@ com\ningmeng\framework\domain\task\XcTask.class
 com\ningmeng\framework\domain\media\response\MediaCourseResult.class
 com\ningmeng\framework\domain\course\ext\CategoryNode.class
 com\ningmeng\framework\domain\learning\XcLearningCourse.class
+com\ningmeng\framework\domain\course\ext\CourseView.class
 com\ningmeng\framework\domain\cms\response\CmsCode.class
 com\ningmeng\framework\domain\media\response\MediaCode.class

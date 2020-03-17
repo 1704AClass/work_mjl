@@ -3,6 +3,16 @@ server:
 spring:
   application:
     name: nm-service-search
+ningmeng:
+  elasticsearch:
+    hostlist: ${eshostlist:127.0.0.1:9200} #多个结点中间用逗号分隔
+  course:
+    index: nm_course1
+    media_index: nm_course_media
+    type: nm_course
+    media_type: doc
+    sourcefield: id,name,grade,mt,st,charge,valid,pic,qq,price,price_old,status,studymodel,teachmode,expires,pub_time,start_time,end_time
+    media_sourcefield: courseid,media_id,media_url,teachplan_id,media_fileoriginalname
 eureka:
   client:
     registerWithEureka: true #服务注册开关
@@ -19,12 +29,3 @@ ribbon:
   OkToRetryOnAllOperations: false  #对所有操作请求都进行重试，如果是get则可以，如果是post，put等操作没有实现幂等的情况下是很危险的,所以设置为false
   ConnectTimeout: 5000  #请求连接的超时时间
   ReadTimeout: 6000 #请求处理的超时时间
-ningmeng:
-  elasticsearch:
-    hostlist: ${eshostlist:127.0.0.1:9200} #多个结点中间用逗号分隔
-  course:
-    index: nm_course
-    media_index: nm_course_media
-    media_source_fileIds: courseid,media_id,media_url,teachplan_id,media_fileoriginalname
-    type: doc
-    source_field: id,name,grade,mt,st,charge,valid,pic,qq,price,price_old,status,studymodel,teachmode,expires,pub_time,start_time,end_time
